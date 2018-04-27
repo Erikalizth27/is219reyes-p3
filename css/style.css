@@ -21,7 +21,7 @@ body {
 .main {
     background-color: #f2f2f2;
     padding: 40px 0;
-    column-count: 2;
+     column-count: 2;
 }
 
 /* This stylizes the poster area and poster images */
@@ -157,6 +157,7 @@ body {
         height: 100%;   
     }
    .main {
+    
     column-count: 1;
 }
  
