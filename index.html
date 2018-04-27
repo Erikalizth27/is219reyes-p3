@@ -16,21 +16,22 @@
 	<!-- DO NOT CHANGE ANYTHING ABOVE THIS LINE-->
 
 	<!-- Angular (ADD HERE) -->
-
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.min.js"></script>
+	
 	
 </head>
 
-  <body>
+  <body ng-app="IS219Gallery">
 	  
-    <div class="header">
+    <div ng-controller="HomeController"  class="header">
 	    
-      <div class="container">
-        <h1 id="app_title">%title%</h1>
+      <div ng-controller="HomeController"  class="container">
+        <h1 id="app_title">{{title}}</h1>
       </div>
       
     </div>
 
-    <div class="main">
+    <div ng-controller="HomeController"  class="main">
       
       <div class="container">
 
@@ -57,13 +58,13 @@
     </div>
 
     <div class="footer">
-      <div class="container">
+      <div ng-controller ="HomeController"  class="container">
 		<a id="github" class="btn btn-lg btn-warning">
 			<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i> %owner% %github%
   		</a>
       </div>
     </div>
-
+<div ng-controller ="HomeController"  class="container">
   
   	<!-- Modules -->
 	<script type="text/javascript" src="js/app.js"></script>
